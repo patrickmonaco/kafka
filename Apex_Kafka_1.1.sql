@@ -151,18 +151,18 @@ wwv_flow_imp_shared.create_user_interface(
 );
 end;
 /
-prompt --workspace/remote_servers/rome_gotocity_eu
+prompt --workspace/remote_servers/xxxx_xxxx_eu
 begin
 wwv_imp_workspace.create_remote_server(
  p_id=>wwv_flow_imp.id(54917057579491735929)
-,p_name=>'rome-gotocity-eu'
-,p_static_id=>'rome_gotocity_eu'
-,p_base_url=>nvl(wwv_flow_application_install.get_remote_server_base_url('rome_gotocity_eu'),'http://rome.gotocity.eu:8082/')
-,p_https_host=>nvl(wwv_flow_application_install.get_remote_server_https_host('rome_gotocity_eu'),'')
+,p_name=>'xxxx-xxxx-eu'
+,p_static_id=>'xxxx_xxxx_eu'
+,p_base_url=>nvl(wwv_flow_application_install.get_remote_server_base_url('xxxx_xxxx_eu'),'http://xxxx.xxxx.eu:8082/')
+,p_https_host=>nvl(wwv_flow_application_install.get_remote_server_https_host('xxxx_xxxx_eu'),'')
 ,p_server_type=>'WEB_SERVICE'
-,p_ords_timezone=>nvl(wwv_flow_application_install.get_remote_server_ords_tz('rome_gotocity_eu'),'')
-,p_remote_sql_default_schema=>nvl(wwv_flow_application_install.get_remote_server_default_db('rome_gotocity_eu'),'')
-,p_mysql_sql_modes=>nvl(wwv_flow_application_install.get_remote_server_sql_mode('rome_gotocity_eu'),'')
+,p_ords_timezone=>nvl(wwv_flow_application_install.get_remote_server_ords_tz('xxxx_xxxx_eu'),'')
+,p_remote_sql_default_schema=>nvl(wwv_flow_application_install.get_remote_server_default_db('xxxx_xxxx_eu'),'')
+,p_mysql_sql_modes=>nvl(wwv_flow_application_install.get_remote_server_sql_mode('xxxx_xxxx_eu'),'')
 ,p_prompt_on_install=>false
 );
 end;
